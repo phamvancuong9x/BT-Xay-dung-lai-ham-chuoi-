@@ -87,6 +87,7 @@ void Them(char s[], int &vt, char &x) {
 	s[vt] = x;
 	s[++n] = '\0';
 }
+//9. Xóa kí tự tại vị trí vt(vt nhập từ bàn phím) trong xâu.
 void xoa(char s[], int& vt) {
 	int n = strlen(s);
 	cout << "nhap vt can xoa :"; cin >> vt;
