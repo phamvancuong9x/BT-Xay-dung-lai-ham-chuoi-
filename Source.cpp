@@ -38,10 +38,10 @@ int main() {
 	return 0;
 }
 int Strlen(char s[]) {
-	int leng = 0;
+	int length = 0;
 	for (int i = 0; i < MAX; i++) {
-		if (s[i] != NULL) { leng++; }
-		else { return leng; }
+		if (s[i] != NULL) { length++; }
+		else { return length; }
 	}
 }
 //2 . strcpy(<chuỗi s1>, <chuỗi s2>) : sao chép chuỗi s2 sang cho s1
